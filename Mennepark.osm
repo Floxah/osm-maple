@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2017-07-10T16:47:02Z"/>
+
+  <node id="45761049" lat="52.2194638" lon="4.5238083"/>
+  <node id="45761469" lat="52.2196000" lon="4.5245000"/>
+  <node id="45761948" lat="52.2197000" lon="4.5242000"/>
+  <node id="45761951" lat="52.2197000" lon="4.5250000"/>
+  <node id="45762416" lat="52.2198000" lon="4.5231000">
+    <tag k="noexit" v="yes"/>
+  </node>
+  <node id="45763255" lat="52.2200000" lon="4.5256000"/>
+  <node id="45763708" lat="52.2200653" lon="4.5235603"/>
+  <node id="45764169" lat="52.2201557" lon="4.5247958"/>
+  <node id="45764175" lat="52.2202313" lon="4.5250021"/>
+  <node id="45764177" lat="52.2202000" lon="4.5259000"/>
+  <node id="45764721" lat="52.2202422" lon="4.5224988">
+    <tag k="noexit" v="yes"/>
+  </node>
+  <node id="45764723" lat="52.2203000" lon="4.5244000"/>
+  <node id="45764726" lat="52.2202531" lon="4.5259724"/>
+  <node id="45765140" lat="52.2204000" lon="4.5250000"/>
+  <node id="45765679" lat="52.2204705" lon="4.5230198"/>
+  <node id="45765681" lat="52.2205000" lon="4.5251000"/>
+  <node id="45765684" lat="52.2203748" lon="4.5259447"/>
+  <node id="45766186" lat="52.2206000" lon="4.5215000"/>
+  <node id="45766536" lat="52.2207000" lon="4.5217000"/>
+  <node id="45766538" lat="52.2209770" lon="4.5250028"/>
+  <node id="45766540" lat="52.2206862" lon="4.5254253"/>
+  <node id="45767028" lat="52.2208000" lon="4.5237000"/>
+  <node id="45767468" lat="52.2209834" lon="4.5225319"/>
+  <node id="45767470" lat="52.2209365" lon="4.5246660"/>
+  <node id="45767964" lat="52.2209270" lon="4.5244511"/>
+  <node id="45767965" lat="52.2210209" lon="4.5248915"/>
+  <node id="45767967" lat="52.2210857" lon="4.5261752"/>
+  <node id="45768487" lat="52.2211000" lon="4.5224000"/>
+  <node id="45768985" lat="52.2211687" lon="4.5241213"/>
+  <node id="45770343" lat="52.2215000" lon="4.5231000"/>
+  <node id="45770348" lat="52.2215000" lon="4.5242000"/>
+  <node id="45770351" lat="52.2215000" lon="4.5244000"/>
+  <node id="45770828" lat="52.2216704" lon="4.5229702"/>
+  <node id="45770834" lat="52.2216000" lon="4.5241000"/>
+  <node id="45771270" lat="52.2217000" lon="4.5231000"/>
+  <node id="45771271" lat="52.2217860" lon="4.5234383"/>
+  <node id="45771274" lat="52.2217000" lon="4.5238000"/>
+  <node id="45771275" lat="52.2217000" lon="4.5247000"/>
+  <node id="45771276" lat="52.2218222" lon="4.5251752"/>
+  <node id="45771783" lat="52.2218000" lon="4.5250000"/>
+  <node id="45774260" lat="52.2223065" lon="4.5230661"/>
+  <node id="606824069" lat="52.2224963" lon="4.5222701"/>
+  <node id="609215900" lat="52.2194094" lon="4.5237175"/>
+  <node id="609215901" lat="52.2193206" lon="4.5235673">
+    <tag k="barrier" v="cycle_barrier"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+  </node>
+  <node id="648377178" lat="52.2217377" lon="4.5236800"/>
+  <node id="648377243" lat="52.2223127" lon="4.5231541"/>
+  <node id="648377295" lat="52.2222027" lon="4.5240394"/>
+  <node id="773932260" lat="52.2223991" lon="4.5223525"/>
+  <node id="773932263" lat="52.2223606" lon="4.5240052"/>
+  <node id="773932264" lat="52.2222505" lon="4.5238818"/>
+  <node id="773932265" lat="52.2223442" lon="4.5233909"/>
+  <node id="773932266" lat="52.2224181" lon="4.5229779"/>
+  <node id="773932267" lat="52.2224329" lon="4.5226346"/>
+  <node id="773932268" lat="52.2224198" lon="4.5225165"/>
+  <node id="2548285679" lat="52.2201036" lon="4.5209780"/>
+  <node id="4449034097" lat="52.2204715" lon="4.5241599"/>
+  <node id="4449034098" lat="52.2201176" lon="4.5234905"/>
+  <way id="7432580">
+    <nd ref="45771276"/>
+    <nd ref="45771783"/>
+    <nd ref="45771275"/>
+    <nd ref="45770351"/>
+    <nd ref="45770348"/>
+    <nd ref="45770834"/>
+    <nd ref="45771274"/>
+    <nd ref="648377178"/>
+    <nd ref="45771271"/>
+    <nd ref="45771270"/>
+    <nd ref="45770828"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Charley Tooroplaan"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="7432632">
+    <nd ref="45761948"/>
+    <nd ref="45763708"/>
+    <nd ref="4449034098"/>
+    <nd ref="45765679"/>
+    <nd ref="45767468"/>
+    <nd ref="45768487"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Mondriaanlaan"/>
+  </way>
+  <way id="7432707">
+    <nd ref="45768487"/>
+    <nd ref="45770343"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+  </way>
+  <way id="7432724">
+    <nd ref="45764721"/>
+    <nd ref="45765679"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mondriaanlaan"/>
+  </way>
+  <way id="7432743">
+    <nd ref="45762416"/>
+    <nd ref="45763708"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mondriaanlaan"/>
+  </way>
+  <way id="7432924">
+    <nd ref="45761049"/>
+    <nd ref="45761948"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mondriaanlaan"/>
+  </way>
+  <way id="7432933">
+    <nd ref="45761948"/>
+    <nd ref="45761469"/>
+    <nd ref="45761951"/>
+    <nd ref="45763255"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Mondriaanlaan"/>
+  </way>
+  <way id="7432983">
+    <nd ref="45770343"/>
+    <nd ref="45770828"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Rembrandtlaan"/>
+    <tag k="oneway" v="-1"/>
+  </way>
+  <way id="7432984">
+    <nd ref="45770828"/>
+    <nd ref="773932260"/>
+    <nd ref="606824069"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Rembrandtlaan"/>
+  </way>
+  <way id="7432985">
+    <nd ref="45766536"/>
+    <nd ref="45768487"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+  </way>
+  <way id="7433036">
+    <nd ref="45770348"/>
+    <nd ref="45768985"/>
+    <nd ref="45767964"/>
+    <nd ref="45767470"/>
+    <nd ref="45767965"/>
+    <nd ref="45766538"/>
+    <nd ref="45766540"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Van Goghlaan"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="7433069">
+    <nd ref="45771271"/>
+    <nd ref="45774260"/>
+    <nd ref="648377243"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Charley Tooroplaan"/>
+  </way>
+  <way id="7433091">
+    <nd ref="45770343"/>
+    <nd ref="45767028"/>
+    <nd ref="4449034097"/>
+    <nd ref="45764723"/>
+    <nd ref="45764169"/>
+    <nd ref="45764175"/>
+    <nd ref="45765140"/>
+    <nd ref="45765681"/>
+    <nd ref="45766540"/>
+    <nd ref="45767967"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Rembrandtlaan"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="47908014">
+    <nd ref="609215900"/>
+    <nd ref="45761049"/>
+    <tag k="highway" v="cycleway"/>
+  </way>
+  <way id="47908016">
+    <nd ref="609215901"/>
+    <nd ref="609215900"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+  </way>
+  <way id="48714119">
+    <nd ref="45763255"/>
+    <nd ref="45764177"/>
+    <nd ref="45764726"/>
+    <nd ref="45765684"/>
+    <nd ref="45766540"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Mondriaanlaan"/>
+  </way>
+  <way id="49020814">
+    <nd ref="2548285679"/>
+    <nd ref="45766186"/>
+    <nd ref="45766536"/>
+    <nd ref="45767468"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Sportparkweg"/>
+  </way>
+  <way id="50834666">
+    <nd ref="773932263"/>
+    <nd ref="773932264"/>
+    <nd ref="773932265"/>
+    <nd ref="773932266"/>
+    <nd ref="773932267"/>
+    <nd ref="773932268"/>
+    <nd ref="773932260"/>
+    <tag k="highway" v="footway"/>
+    <tag k="name" v="Charley Tooroplaan"/>
+  </way>
+  <way id="62082763">
+    <nd ref="773932264"/>
+    <nd ref="648377295"/>
+    <nd ref="648377178"/>
+    <tag k="highway" v="footway"/>
+    <tag k="name" v="Charley Tooroplaan"/>
+  </way>
+  <way id="447839131">
+    <nd ref="4449034097"/>
+    <nd ref="4449034098"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+  </way>
+
+</osm>
