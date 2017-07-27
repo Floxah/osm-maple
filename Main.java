@@ -16,8 +16,8 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /*	Het idee is dat de informatie van een graaf ingelezen wordt uit een .osm bestand (XML) en in een aantal outputlijsten wordt gezet.
-	Een graaf heeft in principe knopen, takken en coördinaten. In de XML file staat informatie over nodes en ways.
-	Nodes krijgen een id, lat en lon mee. Dit gedeelte heb ik al werkend, als je de file runt is de twee-na-laatste line de lijst knopen en de een-na-laatste line de lijst coördinaten.
+	Een graaf heeft in principe knopen, takken en co?rdinaten. In de XML file staat informatie over nodes en ways.
+	Nodes krijgen een id, lat en lon mee. Dit gedeelte heb ik al werkend, als je de file runt is de twee-na-laatste line de lijst knopen en de een-na-laatste line de lijst co?rdinaten.
 	Ways krijgen een id, een aantal nodes (nd) en eventueel wat tags mee. Die tags zijn overbodig. Wat ik wil is dat ik per way alle takken binnenhaal, voorbeeld:
 	Way: id=1, nd=3, nd=5, nd=2, nd=8, tag=highway. Wat de output moet zijn: {3, 5}, {5, 2}, {2, 8}
 	De id's van de nodes zijn bijv. 45761049, 45761049, 45761948. Voor het programma waarin ik het verder gebruik moeten de id's vertaald worden naar een lijst [1, 2, 3] etc.
@@ -52,19 +52,22 @@ public class Main {
 					String lon = identifier.getAttribute("lon");
 					String lat = identifier.getAttribute("lat");
 					String co = "[" + lon + "," + lat + "]";
-					coord.add(co);												// Voeg coördinaten toe aan coord Array, is verder prima zo
+					coord.add(co);												// Voeg co?rdinaten toe aan coord Array, is verder prima zo
 				}
 			}
 
 			NodeList wayList = doc.getElementsByTagName("way"); 				// Vanaf hier liep ik te klooien want ik kwam er niet uit
 			for (int i = 0; i < wayList.getLength(); i++) {						// Probleem is dat ie niet alle children van way wil ophalen
-				Node p = (Node) wayList.item(i);								 
-				if (p.getNodeType() == Node.ELEMENT_NODE) {						 
-					Element ways = (Element) p;
-					if(ways.hasAttribute("nd")) {
-						System.out.println(ways.getAttributeNode("nd"));
-					} else {
-						System.out.println(p.getNodeType());
+				Node item = wayList.item(i);
+				System.out.println("way id: " + ((Element) item).getAttribute("id"));
+				NodeList children = item.getChildNodes();
+				for (int j = 0; j < children.getLength(); j++) {
+					Node child = children.item(j);
+					if (child.getNodeType() == Node.ELEMENT_NODE) {
+						Element elemChild = (Element) child;
+						if (elemChild.hasAttribute("ref")) {
+							System.out.println("ref: " + elemChild.getAttribute("ref"));
+						}
 					}
 				}
 			}
